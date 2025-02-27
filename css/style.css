@@ -75,6 +75,7 @@ nav a{
     border-width:2px;
     border-style: solid;
     padding: 16px;
+    width:fit-content;
 }
 .style-white{
     color: var(--primary-white);
@@ -87,4 +88,85 @@ nav a{
 .call-to-action{
     padding: 16px 48px;
     font-size: 20px;
+}
+.gains{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: -40px;
+}
+.gain-card{
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-white);
+    padding: 48px;
+    gap: 16px;
+    h3{
+        font-size: 56px;
+        font-weight:700;
+    }
+    p{
+        line-height:24px;
+    }
+}
+.gains-left{
+background-color: var(--tertiary-color);
+text-align: right;
+align-items: end;
+}
+.gains-right{
+    background-color: #111;
+
+}
+.experience{
+    display: flex;
+    padding: 48px 0px;
+    gap: 32px;
+    width:85%;
+    margin: auto;
+}
+.experience img{
+    height: 540px;
+}
+.experience-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.experience-content h2{
+    color:#343a40;
+}
+.experience-content>div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 0px ;
+    
+}
+.experience-content section{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    i{
+        font-size: 62px;
+        color: var(--tertiary-color);
+    }
+    > div{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    h4{
+        font-size: 24px;
+        color:#343a40;
+    }
+}
+.style-red{
+    border-color: var(--tertiary-color);
+    color: var(--tertiary-color);
+}
+.style-red:hover{
+    background-color:var(--tertiary-color) ;
+    color: var(--primary-white);
 }
